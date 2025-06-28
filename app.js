@@ -54,7 +54,7 @@ function checkans(idx)
     }
     else
     {
-        h2.innerHTML=`GAME OVER!! Your score was <b>${level}</b><br> Maximum highest score was <b>${count}</b> <br>press any key to restart..`;
+        h2.innerHTML=`GAME OVER!! Your score was <b>${level}</b><br> Maximum score was <b>${count}</b> <br>press any key to restart..`;
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="black";
